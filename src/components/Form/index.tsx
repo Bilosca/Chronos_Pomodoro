@@ -1,6 +1,6 @@
-import { CirclePlayIcon } from 'lucide-react';
 import styles from './style.module.css';
 import { DefaultInput } from '../DefaultInput';
+import { Cycles } from '../Cycles';
 
 export function Form(){
   return(
@@ -11,18 +11,16 @@ export function Form(){
           type='text' 
           labelText='task' 
           placeholder='Digite aqui'
-          defaultValue='Modelo'
-          disabled
+
           ></DefaultInput>
           </div>
           <div className='texto'>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p></p>
           </div>
 
           <div className={styles.ciclos}>
-            <p>Ciclos</p>
+            <Cycles/>
           </div>
-            <button className={styles.playBtn}><CirclePlayIcon></CirclePlayIcon></button>
         </form>
   )
 }

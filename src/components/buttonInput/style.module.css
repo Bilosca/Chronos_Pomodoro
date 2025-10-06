@@ -1,0 +1,33 @@
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.btnInput{
+  border: none;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  min-width: 24rem;
+  margin: 2.0rem 0;
+  cursor: pointer;
+}
+
+.btnInput:hover{
+  filter: brightness(80%);
+  transition: all 0.15s ease-in-out;
+}
+.btnInput svg{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.green{
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+}
+
+
+.red{
+  background-color: var(--error);
+  color: var(--text-over-error);
+}

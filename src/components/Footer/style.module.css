@@ -1,0 +1,17 @@
+.footerContainer{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.footerLink{
+  margin: 0.8rem 0;
+  color: var(--text-default);
+  text-decoration: none;
+}
+.footerLink:hover{
+  color: var(--text-muted);
+  text-decoration:underline;
+  transition: all 0.2 ease-in-out;
+}
