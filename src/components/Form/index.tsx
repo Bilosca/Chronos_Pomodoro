@@ -1,6 +1,8 @@
 import styles from './style.module.css';
 import { DefaultInput } from '../DefaultInput';
 import { Cycles } from '../Cycles';
+import { Button } from '../buttonInput';
+import { PlayCircleIcon } from 'lucide-react';
 
 export function Form(){
   return(
@@ -21,6 +23,8 @@ export function Form(){
           <div className={styles.ciclos}>
             <Cycles/>
           </div>
+          <Button icon={<PlayCircleIcon/>}/>
+          
         </form>
   )
 }
